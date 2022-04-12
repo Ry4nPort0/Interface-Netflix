@@ -1,0 +1,120 @@
+:root{
+
+    --vermelho: #eb0e0e;
+    --preto: #141414;
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*Elementos Base*/
+
+body{
+
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+ 
+ }
+
+ header .container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+ header .logo{
+    margin: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+
+    font-family: 'Arial Black', Times;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+
+header nav a:hover{
+
+    color: #fff;
+}
+
+
+.subtitulo{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 55px;
+    margin-left: 15px;
+}
+
+
+.carrousel {
+
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+.box-filme {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+
+.carrousel2 {
+
+    margin-top: 90px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box-filme2 {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel3 {
+
+    margin-top: 90px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box-filme3 {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.creditos {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 35px;
+    margin-top: 55px;
+    margin-left: 100px;
+}

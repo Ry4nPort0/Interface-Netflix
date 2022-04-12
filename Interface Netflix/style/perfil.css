@@ -1,0 +1,85 @@
+:root{
+
+    --vermelho: #eb0e0e;
+    --preto: #141414;
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*Elementos Base*/
+
+body{
+
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+ 
+ }
+
+ header .logo{
+    margin: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+.perfil {
+
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.titulo {
+
+    font-family: 'Arial', Times;
+    font-size: 50px;
+    margin-right: 150px;
+    margin-top: 100px;
+    margin-left: 450px ;
+}
+
+.botao {
+
+  
+    background-color: #141414;  
+    border: none;
+    color: white;
+
+    
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 35px;
+
+}
+
+.botao:hover{
+
+background-color: red;   
+  
+}
+
+.botoes img{
+
+    width: 200px;
+    height: 200px;
+}
+
+.creditos {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 35px;
+    margin-top: 55px;
+    margin-left: 100px;
+}

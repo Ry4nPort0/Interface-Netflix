@@ -1,0 +1,201 @@
+:root{
+
+    --vermelho: #eb0e0e;
+    --preto: #141414;
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*Elementos Base*/
+
+body{
+
+   background: var(--preto);
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+
+}
+
+
+
+header .container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15px;
+
+}
+
+
+header .logo{
+    margin: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+
+header nav a{
+
+    font-family: 'Arial Black', Times;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+
+header nav a:hover{
+
+    color: #fff;
+}
+
+/* Base do Filme Principal */
+
+.filme-principal{
+
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('https://wallpapercave.com/wp/wkfFvZD.jpg');
+    background-repeat: no-repeat;
+
+    
+    height: 450px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.titulo{
+
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.filme-principal .sinopse{
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+
+
+.botao{
+
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-left: 15px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+
+    background-color: white;
+    color: black;
+}
+
+
+.botao i{
+
+    margin-right: 15px;
+}
+
+
+.box-filme{
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.subtitulo{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+
+.carrousel {
+
+    margin-top: 5px;
+    
+}
+
+.box-filme2 {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel2 {
+
+    margin-top: 10px;
+}
+
+.subtitulo2{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-left: 10px;
+
+}
+
+.box-filme3 {
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel3 {
+
+    margin-top: 10px;
+}
+
+.subtitulo3{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-left: 10px;
+
+}
+
+.creditos {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 35px;
+    margin-top: 55px;
+    margin-left: 100px;
+}
